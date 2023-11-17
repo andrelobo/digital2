@@ -6,9 +6,14 @@ import { useRouter } from "next/router"
 import React from "react"
 
 const SinglePost = () => {
-  const router = useRouter()
-  const { id } = router.query
-  const post = blogdata.find((post) => post.id === parseInt(id))
+  const router = useRouter();
+  const { id } = router.query;
+  const post = blogdata.find((post) => post.id === parseInt(id));
+
+  // Verifica se 'post' está definido antes de acessar 'title'
+  if (!post) {
+    return <div>Post não encontrado</div>;
+  }
 
   return (
     <>
