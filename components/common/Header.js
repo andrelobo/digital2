@@ -19,7 +19,8 @@ const Header = () => {
         <div className='container'>
           <div className='logo'>
             <Link href='/'>
-              <TitleLogo title='creative' caption='7' className='logomin' />
+            
+            <img src="/images/lobodev_logo.png" alt="logo" />
             </Link>
           </div>
           <nav className={open ? "openMenu" : "closeMenu"} onClick={() => setOpen(null)}>
@@ -27,13 +28,11 @@ const Header = () => {
               Home
             </Link>
             <Link href='/agency' className={activeLink == "/agency" ? "activeLink" : "none"}>
-              Agency
+              Agência
             </Link>
-            <Link href='/team' className={activeLink == "/team" ? "activeLink" : "none"}>
-              Team
-            </Link>
+            
             <Link href='/services' className={activeLink == "/services" ? "activeLink" : "none"}>
-              Services
+              Serviços
             </Link>
             <Link href='/showcase' className={activeLink == "/showcase" ? "activeLink" : "none"}>
               Showcase
@@ -42,9 +41,9 @@ const Header = () => {
               Blog
             </Link>
             <Link href='/contact' className={activeLink == "/contact" ? "activeLink" : "none"}>
-              Contact
+              Contato
             </Link>
-            <button className='button-primary'>book a consultation</button>
+            <button className='button-primary'>Agenda uma consultoria</button>
           </nav>
           <button onClick={() => setOpen(!open)}>{open ? <AiOutlineClose size={25} /> : <RiMenu4Line size={25} />}</button>
         </div>

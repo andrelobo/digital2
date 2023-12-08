@@ -20,6 +20,7 @@
     overflow-x: hidden !important;
   }
   .hero-title {
+    color:#EFD803;
     font-size: $xll-3;
     line-height: 115px;
     font-weight: 600;
@@ -66,7 +67,8 @@
   .container {
     border-radius: 50px 0 50px 0;
     padding: $xll;
-    background: rgb(192, 90, 255);
+    background:  #ffd700;
+    ;
     background: $gradient;
     @include flex(center, space-between, none);
   }
@@ -158,6 +160,7 @@ footer {
   border-top: 1px solid rgba($white, 0.2);
   overflow: hidden;
   .logobg {
+    color: #EFD803;
     line-height: 0;
     padding-top: $xl-1;
     margin-bottom: $xll;
@@ -279,7 +282,7 @@ footer {
   .right {
     border-radius: 50px 0 50px 0;
     padding: $xll;
-    background-color: #171e20;
+    background-color: #ffd700;
     form {
       margin-top: $xll;
     }
