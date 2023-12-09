@@ -10,25 +10,23 @@ const Footer = () => {
         <div className='container'>
           <div className='grid-4'>
             <div className='logo'>
-              <TitleLogo title='creative' caption='7' className='logobg' />
-              <br />
+            <img src="/images/lobodev_logo.png" alt="logo" />
+              
               <span>
-                Questions? Reach us <br /> Monday – Friday from 9 am to 6 pm
+              Perguntas? Entre em contato conosco <br /> de segunda a sexta, das 9h às 18h.
               </span>
               <br />
               <br />
-              <h3>+1 001 234 5678</h3>
+              <h3>++5592985930954</h3>
               <br />
-              <button className='button-primary'>Request for quote</button>
+              <button className='button-primary'>Faça um orçamento</button>
             </div>
             <ul>
-              <h3>COMPANY</h3>
+              <h3>Compania</h3>
               <li>
-                <Link href='/'>About agency</Link>
+                <Link href='/'>Sobre a agência</Link>
               </li>
-              <li>
-                <Link href='/'>Our team</Link>
-              </li>
+              
               <li>
                 <Link href='/'>Showcase</Link>
               </li>
@@ -43,7 +41,7 @@ const Footer = () => {
               </li>
             </ul>
             <ul>
-              <h3>SERVICES</h3>
+              <h3>SERVIÇOS</h3>
               <li>
                 <Link href='/'>Web Design & Development</Link>
               </li>

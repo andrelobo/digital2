@@ -12,8 +12,7 @@ const Hero = () => {
     <>
       <section className='hero'>
         <div className='container'>
-          <TitleLogo title='< Desenvolvimento Web />'  className='logobg' />
-          <h1 className='hero-title'>CONSTRUÍMOS EXPERIÊNCIAS DIGITAIS</h1>
+          <TitleLogo title='< Desenvolvimento Web />'  className='logobg' />          
 
           <div className='sub-heading'>
             <TitleSm title='WEBSITES' /> <span>.</span>
