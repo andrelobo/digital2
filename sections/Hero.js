@@ -54,3 +54,6 @@ const Hero = () => {
 };
 
 export default Hero;
+
+
+// how to resize this hero-title to mobile apps ?
