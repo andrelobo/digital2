@@ -329,6 +329,14 @@ footer {
     }
   }
 
+  .titleSm {
+    font-size: 13px; /* Ajuste o tamanho do subtítulo para dispositivos móveis */
+  }
+  
+  .logobg {
+    font-size: 20px;
+  }
+
   .blog-card {
     .card {
       @include flex(none, none, column);
@@ -377,3 +385,4 @@ footer {
     }
   }
 }
+
