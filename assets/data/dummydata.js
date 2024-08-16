@@ -37,15 +37,15 @@ export const expertise = [
   },
   {
     id: 2,
-    title: "Marketing Digital",
+    title: "Desenvolvimento e Integração de APIs",
     cover: "../images/e2.jpg",
     desc: [
-      { text: "Marketing em mídias sociais" },
-      { text: "Campanhas de marketing" },
-      { text: "Gestão de marketing" },
-      { text: "SEO" },
+      { text: "Desenvolvimento de APIs RESTful" },
+      { text: "Integração com APIs de terceiros" },
+      { text: "Documentação de APIs" },
+      { text: "Autenticação e autorização de APIs" },
     ],
-  },
+},
   {
     id: 3,
     title: "E-Commerce",
@@ -59,14 +59,15 @@ export const expertise = [
   },
   {
     id: 4,
-    title: "Branding e Serviços Criativos",
+    title: "Integração e Serviços em Nuvem",
     cover: "../images/e4.jpg",
     desc: [
-      { text: "Identidade visual" },
-      { text: "Branding para mídias sociais" },
-      { text: "Ilustrações personalizadas" },
+      { text: "Integração com AWS" },
+      { text: "Serviços em Heroku" },
+      { text: "Implantação em Vercel" },
+      { text: "Gerenciamento de infraestrutura em nuvem" },
     ],
-  },
+},
 ];
 
 export const testimonial = [
@@ -86,7 +87,7 @@ export const showcase = [
     id: 1,
     title: "Neon Lights",
     cover: "../images/s1.jpg",
-    catgeory: "MARKETING DIGITAL",
+    catgeory: "INTEGRAÇÃO E SERVIÇOS EM NUVEM",
   },
   // ... (outros projetos)
 ];

@@ -25,17 +25,17 @@ const Contact = () => {
               <div className='contact-details'>
                 <div className='box'>
                   <FiHeadphones size={30} className='icons' />
-                  <h3>1-001-234-5678</h3>
+                  <h3>+55 92 98593-0954</h3>
                   <span>Atendimento: Seg - Sex 9:00 - 19:00</span>
                 </div>
                 <div className='box'>
                   <IoLocationOutline size={30} className='icons' />
-                  <h3>Nova York</h3>
+                  <h3>Manaus, Amazonas - Brasil</h3>
                   <span>990 Madison Ave, Midtown Manhattan, 2º Andar, NY 10022</span>
                 </div>
                 <div className='box'>
                   <FiHelpCircle size={30} className='icons' />
-                  <h3>info@dream-theme.com</h3>
+                  <h3>loboandre@hotmail.com</h3>
                   <span>Nos envie uma mensagem a qualquer momento!</span>
                 </div>
                 <div className='box'>

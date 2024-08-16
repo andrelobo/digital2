@@ -16,17 +16,18 @@ const Hero = () => {
 
           <div className='sub-heading'>
             <TitleSm title='WEBSITES' /> <span>.</span>
-            <TitleSm title='BRANDING' /> <span>.</span>
-            <TitleSm title='MARKETING DIGITAL' />
+            <TitleSm title='DESENVOLVIMENTO E INTEGRAÇÃO DE API`S' /> <span>.</span>
+            <TitleSm title='INTEGRAÇÃO E SERVIÇOS EM NUVEM' />
           </div>
         </div>
       </section>
       <section className='hero-sec'>
         <div className='container'>
           <div className='heading-title'>
-            <Title title='A última agência digital que você precisará' />
-            <p>Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. Vivamus a ligula ut velit placerat egestas at id leo. Nulla ac volutpat nunc. Nulla facilisi. Pellentesque tempus tellus ut magna porttitor scelerisque.</p>
-          </div>
+            <Title title='A fábrica de software para suas soluções digitais.' />
+            <p className='desc-p'>
+  Transformamos idéias de negócios em soluções digitais inteligentes e inovadoras. Nossa equipe é especializada em criar produtos que não só atendem às necessidades do mercado, mas também antecipam tendências tecnológicas. Com uma abordagem centrada no cliente, desenvolvemos sistemas robustos e escaláveis, integrando as mais modernas tecnologias de back-end e front-end para oferecer resultados de alto impacto e qualidade. A nossa experiência abrange desde o desenvolvimento de software personalizado até a criação de plataformas digitais complexas, sempre com o foco em eficiência e inovação.
+</p>          </div>
           <div className='hero-content grid-4'>
             {home.map((item, i) => (
               <div className='box' key={i}>
@@ -40,14 +41,11 @@ const Hero = () => {
       </section>
       <Expertise />
       <Banner />
-      <Testimonial />
+     
       <ShowCase />
       <Brand />
 
-      <div className='text-center'>
-        <Title title='Últimas notícias e artigos' />
-      </div>
-      <BlogCard />
+     
     </>
   );
 };

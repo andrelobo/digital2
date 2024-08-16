@@ -9,16 +9,17 @@ const Agency = () => {
       <section className='agency bg-top'>
         <div className='container'>
           <div className='heading-title'>
-            <TitleSm title='SOBRE A AGENCIA' /> <br />
+            <TitleSm title='Fábrica de' /> <br />
             <br />
-            <Title title='A última agência digital que você precisará!' className='title-bg' />
+            <Title title='A fábrica de software para suas soluções digitais.' className='title-bg' />
           </div>
 
           <div className='content flex1'>
             <div className='left w-60 py'>
-              <TitleSm title='Transformando suas ideias de negócios em produtos digitais inteligentes desde 2001' />
-              <p className='desc-p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus eleifend magna, molestie iaculis sem pulvinar eu. Etiam non dui felis. Proin posuere dapibus magna laoreet posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dignissim, sem eget sollicitudin tempor, libero velit aliquam enim, vel egestas tortor ante quis sem.</p>
-              <div className='grid-3'>
+              <TitleSm title='Transformando suas ideias de negócios em produtos digitais inteligentes desde 2020' />
+              <p className='desc-p'>
+  Transformamos ideias de negócios em soluções digitais inteligentes e inovadoras. Nossa equipe é especializada em criar produtos que não só atendem às necessidades do mercado, mas também antecipam tendências tecnológicas. Com uma abordagem centrada no cliente, desenvolvemos sistemas robustos e escaláveis, integrando as mais modernas tecnologias de back-end e front-end para oferecer resultados de alto impacto e qualidade. A nossa experiência abrange desde o desenvolvimento de software personalizado até a criação de plataformas digitais complexas, sempre com o foco em eficiência e inovação.
+</p>              <div className='grid-3'>
                 <div className='box'>
                   <h1 className='indigo'>10+</h1>
                   <h3>Anos de experiência</h3>
@@ -52,7 +53,7 @@ const Agency = () => {
       </section>
 
       <Brand />
-      <Testimonial />
+      
       <Banner />
       <br />
       <br />

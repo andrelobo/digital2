@@ -17,14 +17,14 @@ const Footer = () => {
               </span>
               <br />
               <br />
-              <h3>++5592985930954</h3>
+              <h3>+5592985930954</h3>
               <br />
               <button className='button-primary'>Faça um orçamento</button>
             </div>
             <ul>
-              <h3>Compania</h3>
+              <h3>Empresa</h3>
               <li>
-                <Link href='/'>Sobre a agência</Link>
+                <Link href='/'>Sobre a empresa</Link>
               </li>
               
               <li>
@@ -37,23 +37,43 @@ const Footer = () => {
                 <Link href='/'>Demo design system</Link>
               </li>
               <li>
-                <Link href='/'>Contact</Link>
+                <Link href='/'>Contato</Link>
               </li>
             </ul>
             <ul>
               <h3>SERVIÇOS</h3>
-              <li>
-                <Link href='/'>Web Design & Development</Link>
-              </li>
-              <li>
-                <Link href='/'>Branding & Creative Services</Link>
-              </li>
-              <li>
-                <Link href='/'>Digital Marketing</Link>
-              </li>
-              <li>
-                <Link href='/'>E-Commerce</Link>
-              </li>
+  <li>
+  <Link href='/'>Design e Desenvolvimento Web</Link>
+</li>
+
+<li>
+  <Link href='/'>E-Commerce</Link>
+</li>
+<li>
+  <Link href='/'>Desenvolvimento de Aplicativos Mobile</Link>
+</li>
+<li>
+  <Link href='/'>Soluções de Software Personalizadas</Link>
+</li>
+<li>
+  <Link href='/'>Integração e Serviços em Nuvem</Link>
+</li>
+<li>
+  <Link href='/'>Desenvolvimento e Integração de APIs</Link>
+</li>
+<li>
+  <Link href='/'>Design de UI/UX</Link>
+</li>
+<li>
+  <Link href='/'>DevOps e Integração Contínua</Link>
+</li>
+<li>
+  <Link href='/'>Análise de Dados e Inteligência de Negócios</Link>
+</li>
+<li>
+   <Link href='/'>Modernização de Sistemas Legados</Link>
+</li>
+
             </ul>
             <ul>
               <h3>CONNECT</h3>
