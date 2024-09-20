@@ -15,9 +15,9 @@ const Hero = () => {
           <TitleLogo title='< Desenvolvimento Web />'  className='logobg' />          
 
           <div className='sub-heading'>
-            <TitleSm title='WEBSITES' /> <span>.</span>
+            <TitleSm title=' APLICATIVOS CUSTOMIZADOS' /> <span>.</span>
             <TitleSm title='DESENVOLVIMENTO E INTEGRAÇÃO DE API`S' /> <span>.</span>
-            <TitleSm title='INTEGRAÇÃO E SERVIÇOS EM NUVEM' />
+            <TitleSm title='AUTOMAÇÃO DE PROCESSOS' />
           </div>
         </div>
       </section>
@@ -26,8 +26,7 @@ const Hero = () => {
           <div className='heading-title'>
             <Title title='A fábrica de software para suas soluções digitais.' />
             <p className='desc-p'>
-  Transformamos idéias de negócios em soluções digitais inteligentes e inovadoras. Nossa equipe é especializada em criar produtos que não só atendem às necessidades do mercado, mas também antecipam tendências tecnológicas. Com uma abordagem centrada no cliente, desenvolvemos sistemas robustos e escaláveis, integrando as mais modernas tecnologias de back-end e front-end para oferecer resultados de alto impacto e qualidade. A nossa experiência abrange desde o desenvolvimento de software personalizado até a criação de plataformas digitais complexas, sempre com o foco em eficiência e inovação.
-</p>          </div>
+            Transformamos ideias em soluções digitais inovadoras, criando produtos que atendem ao mercado. Desenvolvemos desde software personalizado até plataformas complexas, com foco em eficiência e inovação.</p>          </div>
           <div className='hero-content grid-4'>
             {home.map((item, i) => (
               <div className='box' key={i}>

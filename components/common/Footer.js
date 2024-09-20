@@ -27,12 +27,7 @@ const Footer = () => {
                 <Link href='/'>Sobre a empresa</Link>
               </li>
               
-              <li>
-                <Link href='/'>Showcase</Link>
-              </li>
-              <li>
-                <Link href='/'>Blog</Link>
-              </li>
+              
               <li>
                 <Link href='/'>Demo design system</Link>
               </li>
@@ -49,9 +44,7 @@ const Footer = () => {
 <li>
   <Link href='/'>E-Commerce</Link>
 </li>
-<li>
-  <Link href='/'>Desenvolvimento de Aplicativos Mobile</Link>
-</li>
+
 <li>
   <Link href='/'>Soluções de Software Personalizadas</Link>
 </li>
@@ -60,12 +53,6 @@ const Footer = () => {
 </li>
 <li>
   <Link href='/'>Desenvolvimento e Integração de APIs</Link>
-</li>
-<li>
-  <Link href='/'>Design de UI/UX</Link>
-</li>
-<li>
-  <Link href='/'>DevOps e Integração Contínua</Link>
 </li>
 <li>
   <Link href='/'>Análise de Dados e Inteligência de Negócios</Link>
@@ -103,12 +90,12 @@ const Footer = () => {
           </div>
           <div className='legal connect py'>
             <div className='text'>
-              <span>© 2023 THE SEVEN. ALL RIGHTS RESERVED.</span>
+              <span>© 2024 LOBODEV TECH ALL RIGHTS RESERVED.</span>
             </div>
             <div className='connect'>
-              <span>GORKCODER COMPANY</span>
+              <span>LOBODEV TECH</span>
               <span> &nbsp; | &nbsp; </span>
-              <span>TERMS & CONDITIONS</span>
+            
             </div>
           </div>
         </div>

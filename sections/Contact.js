@@ -31,7 +31,7 @@ const Contact = () => {
                 <div className='box'>
                   <IoLocationOutline size={30} className='icons' />
                   <h3>Manaus, Amazonas - Brasil</h3>
-                  <span>990 Madison Ave, Midtown Manhattan, 2º Andar, NY 10022</span>
+                 
                 </div>
                 <div className='box'>
                   <FiHelpCircle size={30} className='icons' />
@@ -41,7 +41,7 @@ const Contact = () => {
                 <div className='box'>
                   <BiUserCircle size={30} className='icons' />
                   <h3>hr@dream-theme.com</h3>
-                  <span>Carreira na Seven Creative</span>
+                  <span>Carreira na Lobodev Tech</span>
                 </div>
               </div>
               <ul>
