@@ -41,9 +41,7 @@ const Hero = () => {
       <Expertise />
       <Banner />
      
-      <ShowCase />
-      <Brand />
-
+  
      
     </>
   );

@@ -23,20 +23,7 @@ const Agency = () => {
               <p className="desc-p">
                Transformamos ideias em soluções digitais inovadoras. Nossa equipe cria produtos que atendem ao mercado e antecipam tendências. Desenvolvemos sistemas robustos e escaláveis, unindo tecnologias modernas de back-end e front-end para garantir resultados de alta qualidade, desde softwares personalizados até plataformas digitais complexas, sempre focados em eficiência e inovação.
               </p>{" "}
-              <div className="grid-3">
-                <div className="box">
-                  <h1 className="indigo">10+</h1>
-                  <h3>Anos de experiência</h3>
-                </div>
-                <div className="box">
-                  <h1 className="indigo">50+</h1>
-                  <h3>Casos de sucesso</h3>
-                </div>
-                <div className="box">
-                  <h1 className="indigo">12+</h1>
-                  <h3>Prêmios da indústria</h3>
-                </div>
-              </div>
+             
             </div>
             <div className="right w-40 ml">
               <img
