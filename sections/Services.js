@@ -11,7 +11,7 @@ const Services = () => {
           <div className='heading-title'>
             <TitleSm title='SERVIÇOS' /> <br />
             <br />
-            <Title title='Tecnologias únicas e abordagem moderna' className='title-bg' />
+            <Title title='Tecnologias e abordagem modernas' className='title-bg' />
           </div>
           <div className='grid-2 py'>
             {expertise.map((item) => (

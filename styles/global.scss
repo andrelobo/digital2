@@ -30,10 +30,11 @@
     display: flex;
     justify-content: center;
     .titleSm {
+      
       margin: 0 10px;
     }
     span {
-      font-size: $lg;
+      font-size: small;
       line-height: 0;
       color: $green;
     }
@@ -168,7 +169,7 @@ footer {
   h3 {
     font-weight: 400;
     letter-spacing: 2px;
-    font-size: $lg;
+    font-size: $sm;
     margin-bottom: $xl-6;
   }
   span,
@@ -330,7 +331,7 @@ footer {
   }
 
   .titleSm {
-    font-size: 13px; /* Ajuste o tamanho do subtítulo para dispositivos móveis */
+    font-size: 09px; /* Ajuste o tamanho do subtítulo para dispositivos móveis */
   }
   
   .logobg {

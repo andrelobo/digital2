@@ -10,7 +10,7 @@ export const home = [
   },
   {
     icon: <TfiRulerPencil size={25} />,
-    title: "Tecnologias únicas e abordagem moderna",
+    title: "Tecnologias e abordagem modernas",
   },
   {
     icon: <VscFileSubmodule size={25} />,
