@@ -38,7 +38,12 @@ const Header = () => {
             <Link href='/contact' className={activeLink == "/contact" ? "activeLink" : "none"}>
               Contato
             </Link>
-            <button className='button-primary'>Agenda uma consultoria</button>
+            <button
+  className='button-primary'
+  onClick={() => window.open('https://wa.me/5592985930954?text=Olá,%20gostaria%20de%20agendar%20uma%20consultoria', '_blank')}
+>
+  Agende uma consultoria
+</button>
           </nav>
           <button onClick={() => setOpen(!open)}>{open ? <AiOutlineClose size={25} /> : <RiMenu4Line size={25} />}</button>
         </div>

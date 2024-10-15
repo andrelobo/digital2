@@ -40,7 +40,7 @@ const Contact = () => {
                 </div>
                 <div className='box'>
                   <BiUserCircle size={30} className='icons' />
-                  <h3>hr@dream-theme.com</h3>
+                  <h3>loboandre@hotmail.com</h3>
                   <span>Carreira na Lobodev Tech</span>
                 </div>
               </div>
@@ -66,33 +66,16 @@ const Contact = () => {
                 nossa proposta.
               </p>
 
-              <form>
-                <div className='grid-2'>
-                  <div className='inputs'>
-                    <span>Nome</span>
-                    <input type='text' />
-                  </div>
-                  <div className='inputs'>
-                    <span>Email</span>
-                    <input type='text' />
-                  </div>
-                </div>
-                <div className='grid-2'>
-                  <div className='inputs'>
-                    <span>Seu orçamento</span>
-                    <input type='text' />
-                  </div>
-                  <div className='inputs'>
-                    <span>Prazo</span>
-                    <input type='text' />
-                  </div>
-                </div>
-                <div className='inputs'>
-                  <span>CONTE-NOS UM POUCO SOBRE SEU PROJETO*</span>
-                  <textarea cols='30' rows='10'></textarea>
-                </div>
-                <button className='button-primary'>Enviar</button>
-              </form>
+             
+              <div className="cta-section">
+  <button
+    className="button-primary"
+    onClick={() => window.open('https://wa.me/5592985930954?text=Olá,%20gostaria%20de%20fazer%20um%20orçamento', '_blank')}
+  >
+    Faça um orçamento
+  </button>
+</div>
+
             </div>
           </div>
         </div>

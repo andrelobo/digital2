@@ -24,7 +24,13 @@ const Footer = () => {
               <br />
               <h3>+5592985930954</h3>
               <br />
-              <button className="button-primary">Faça um orçamento</button>
+              <button
+  className="button-primary"
+  onClick={() => window.open('https://wa.me/5592985930954?text=Olá,%20gostaria%20de%20fazer%20um%20orçamento', '_blank')}
+>
+  Faça um orçamento
+</button>
+
             </div>
             <ul>
               <h3>Empresa</h3>
